@@ -1,0 +1,10 @@
+GoogleNet
+采用并行结构的神经网络, 有Convolution, Poolong, Softmax and others.
+
+由于结构复杂, 使得代码过多, 则要使用函数/类来减少代码冗余
+
+Inception Module
+将许多不同的卷积层放在同一层, 最终选出最佳的进行Concatenate, 但要保证其不同的W'和H'一样
+
+1 * 1的卷积核
+作用: 将图像进行缩放, 进行信息融合
